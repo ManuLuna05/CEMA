@@ -5,10 +5,10 @@ const SMALL_SIZE = 8;
 
 // ====== COORDENADAS (ACTUALÍZALAS TRAS CALIBRAR) ======
 const coords = {
-  proveedor: { x: 89,  y: 750 },
-  fecha:     { x: 400, y: 710 },
-  tlf:       { x: 380,  y: 690 },
-  movil:     { x: 500, y: 690 },
+  proveedor: { x: 95,  y: 770 },
+  fecha:     { x: 400, y: 680 },
+  tlf:       { x: 380,  y: 770 },
+  movil:     { x: 500, y: 770 },
   ciudad:    { x: 85,  y: 663 },
   provincia: { x: 420, y: 663 },
   nif:       { x: 85,  y: 644 },
