@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Propuesta de compra – Rellenar y descargar PDF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Librería para editar PDFs en el navegador -->
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+</head>
+<body>
+  <h1>Propuesta de compra</h1>
+
+  <form id="form">
+    <fieldset>
+      <legend>Proveedor</legend>
+      <label>Proveedor <input name="proveedor" required /></label>
+      <label>Fecha <input name="fecha" type="date" required /></label>
+      <label>Teléfono <input name="tlf" /></label>
+      <label>Móvil <input name="movil" /></label>
+      <label>Ciudad <input name="ciudad" /></label>
+      <label>Provincia <input name="provincia" /></label>
+      <label>NIF/CIF <input name="nif" /></label>
+      <label>Contacto <input name="contacto" /></label>
+      <label>Email <input name="email" type="email" /></label>
+      <label>Cargo <input name="cargo" /></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pedido – primera línea</legend>
+      <label>Marca <input name="marca1" /></label>
+      <label>Modelo <input name="modelo1" /></label>
+      <label>Nº de serie <input name="serie1" /></label>
+      <label>Año <input name="ano1" /></label>
+      <label>Horas <input name="horas1" /></label>
+      <label>Precio <input name="precio1" /></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Accesorios (bloque 1)</legend>
+      <label>CE
+        <select name="ce1">
+          <option value="">—</option>
+          <option>SI</option><option>NO</option>
+        </select>
+      </label>
+      <label>Ficha técnica
+        <select name="ficha1">
+          <option value="">—</option>
+          <option>SI</option><option>NO</option>
+        </select>
+      </label>
+      <label>Permiso circulación
+        <select name="permiso1">
+          <option value="">—</option>
+          <option>SI</option><option>NO</option>
+        </select>
+      </label>
+      <label>ITV
+        <select name="itv1">
+          <option value="">—</option>
+          <option>SI</option><option>NO</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <button type="submit">Generar PDF</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
