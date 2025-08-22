@@ -5,16 +5,16 @@ const SMALL_SIZE = 8;
 
 // ====== COORDENADAS (ACTUALÍZALAS TRAS CALIBRAR) ======
 const coords = {
-  proveedor: { x: 100,  y: 1 },
-  fecha:     { x: 400, y: 640 },
-  tlf:       { x: 380,  y: 790 },
-  movil:     { x: 460, y: 790 },
-  ciudad:    { x: 85,  y: 663 },
-  provincia: { x: 420, y: 663 },
-  nif:       { x: 85,  y: 644 },
-  contacto:  { x: 420, y: 644 },
-  email:     { x: 85,  y: 625 },
-  cargo:     { x: 420, y: 625 },
+    proveedor: { x: 120, y: 690 },
+    fecha:     { x: 460, y: 690 },
+    tlf:       { x: 120, y: 668 },
+    movil:     { x: 460, y: 668 },
+    ciudad:    { x: 120, y: 626 },
+    provincia: { x: 460, y: 626 },
+    nif:       { x: 120, y: 606 },
+    contacto:  { x: 460, y: 606 },
+    email:     { x: 120, y: 586 },
+    cargo:     { x: 460, y: 586 },
 
   // PEDIDO (línea 1)
   marca1:    { x: 85,  y: 573 },
